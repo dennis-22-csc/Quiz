@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/purple_700"
+	android:padding="16dp"
+	tools:context=".main.MainActivity"
+	android:id="@+id/rl1">
+
+	<TextView
+		android:id="@+id/main_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+		android:text="Quiz" 
+		android:textSize="30sp"
+		android:textColor="@android:color/black"
+	/>
+    <LinearLayout 
+		android:layout_height="match_parent"
+		android:layout_width="match_parent" 
+		android:orientation="vertical" 
+		android:gravity="center" 
+		android:layout_below="@+id/main_text"
+	>
+		<Button
+			android:id="@+id/button_start_quiz"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Activate Quiz"
+			android:onClick="activateQuiz"
+		/>
+		<Button
+			android:id="@+id/button_pause_quiz"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Pause Quiz"
+			android:onClick="pauseQuiz"
+			/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Quiz Status"
+			android:onClick="checkQuizStatus"
+			/>
+		<Button
+			android:id="@+id/button_sync_question"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sync Questions"
+			android:onClick="syncQuestion"
+			/>
+
+		<Button
+			android:id="@+id/button_sync_category"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sync Categories"
+			android:onClick="syncCategory"
+			/>
+		<Button
+			android:id="@+id/button_deactivate_quiz"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Deactivate Quiz"
+			android:onClick="deactivateQuiz"
+			/>
+
+	</LinearLayout>
+</RelativeLayout>
+
