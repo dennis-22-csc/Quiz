@@ -16,7 +16,7 @@
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="30dp"
-		android:text="Quiz" 
+		android:text="@string/app_name"
 		android:textSize="30sp"
 		android:textColor="@android:color/black"
 	/>
@@ -31,27 +31,27 @@
 			android:id="@+id/button_start_quiz"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Activate Quiz"
+			android:text="@string/activate"
 			android:onClick="activateQuiz"
 		/>
 		<Button
 			android:id="@+id/button_pause_quiz"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Pause Quiz"
+			android:text="@string/pause"
 			android:onClick="pauseQuiz"
 			/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Quiz Status"
+			android:text="@string/status"
 			android:onClick="checkQuizStatus"
 			/>
 		<Button
 			android:id="@+id/button_sync_question"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Sync Questions"
+			android:text="@string/sync_q"
 			android:onClick="syncQuestion"
 			/>
 
@@ -59,14 +59,14 @@
 			android:id="@+id/button_sync_category"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Sync Categories"
+			android:text="@string/sync_c"
 			android:onClick="syncCategory"
 			/>
 		<Button
 			android:id="@+id/button_deactivate_quiz"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="Deactivate Quiz"
+			android:text="@string/deactivate"
 			android:onClick="deactivateQuiz"
 			/>
 

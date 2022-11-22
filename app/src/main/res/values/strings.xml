@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="activate">Activate Quiz</string>
+    <string name="pause">Pause Quiz</string>
+    <string name="status">Quiz Status</string>
+    <string name="sync_q">Sync Questions</string>
+    <string name="sync_c">Sync Categories</string>
+    <string name="deactivate">Deactivate Quiz</string>
 </resources>
