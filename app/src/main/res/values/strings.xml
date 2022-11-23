@@ -6,4 +6,15 @@
     <string name="sync_q">Sync Questions</string>
     <string name="sync_c">Sync Categories</string>
     <string name="deactivate">Deactivate Quiz</string>
+    <string name="question">What is my name?</string>
+    <string name="option1">Dennis</string>
+    <string name="option2">Gabriel</string>
+    <string name="option3">Henry</string>
+    <string name="option4">Peter</string>
+    <string name="feedback">Dennis</string>
+    <string name="category">Category: </string>
+    <string name="submit">Submit</string>
+    <string name="okay">Okay</string>
+    <string name="correct">Got it</string>
+    <string name="wrong">Failed it</string>
 </resources>
